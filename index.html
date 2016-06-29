@@ -3,9 +3,47 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
 		<title>Transporte 2 - Trabajo Práctico final</title>
+		<!-- Chrome for Android theme color -->
+		<meta name="theme-color" content="#282828" />
+		<!-- Tile color for Win8 -->
+		<meta name="msapplication-TileColor" content="#282828">
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="application-name" content="El NOA - Presentación">
+		<link rel="icon" sizes="192x192" href="img/touch/chrome-touch-icon-192x192.png">
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="no">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="El NOA - Presentación">
+		<link rel="apple-touch-icon" href="img/touch/apple-touch-icon.png">
+		<!-- Tile icon for Win8 (144x144) -->
+		<meta name="msapplication-TileImage" content="img/touch/ms-touch-icon-144x144-precomposed.png">
 
+		<meta name="description" content='Presentación del trabajo final de Transporte 2.'>
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+		<meta name="thumbnail" content="http://Fermoto5HD.16mb.com/img/meta-840x560.jpg" />
+		<!-- Meta og -->
+		<meta property="og:description" content='Presentación del trabajo final de Transporte 2.'>
+		<meta property="og:site_name" content="El NOA - Presentación" />
+		<meta property="og:title" content="El NOA - Presentación" />
+		<meta property="og:description" content='Presentación del trabajo final de Transporte 2.' />
+		<meta property="og:locale" content="es_AR" />
+		<meta property="og:url" content="http://Fermoto5HD.16mb.com/" />
+		<meta property="og:image" content="http://Fermoto5HD.16mb.com/img/meta-840x560.jpg" />
+		<meta property="og:type" content="website" />
+		<!-- Meta Twitter -->
+		<meta name="twitter:title" content="El NOA - Presentación" />
+		<meta name="twitter:description" content='Presentación del trabajo final de Transporte 2.' />
+		<meta name="twitter:card" content="photo" />
+		<meta name="twitter:site" content="@Fermoto5HD" />
+		<meta name="twitter:creator" content="@Fermoto5HD" />
+		<meta name="twitter:url" content="http://Fermoto5HD.16mb.com/" />
+		<meta name="twitter:image" content="http://Fermoto5HD.16mb.com/img/meta-840x560.jpg" />
+		<meta name="twitter:image:width" content="435" />
+		<meta name="twitter:image:height" content="290" />
+		<!-- Vendors -->
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
 
@@ -24,8 +62,8 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					<section data-background="img/noa-01.jpg">
+				<section data-background="img/noa-01.jpg">
+					<section>
 						<h1>El NOA</h1>
 						<h2>Potencial económico y su logística</h2>
 					</section>
@@ -47,10 +85,13 @@
 						<li>Se identifican las principales restricciones del flujo del comercio en la región del NOA. </li>
 					</ul>
 				</section>
-				<section data-background="img/belgranocargas-01.jpg">
+				<section data-background="img/noa-03.jpg">
 					<section>
 						<h1>¿Qué tenemos que saber del NOA?</h1>
 						<p>La situación actual de su economía.</p>
+						<br/>
+						<br/>
+						<p style="font-size: 12px; opacity: 0.75">Fotograiado por diametrik, licenciado bajo [<a href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>]</a>
 					</section>
 					<section>
 						<ul>
@@ -63,15 +104,17 @@
 				</section>
 				<section>
 					<section>
-						<h2>Revisamos las toneladas kilómetro que se fueron transportando entre 2008 y 2012</h2>
-						<p>Spoiler: los números no son nada lindos :(</p>
-						<p>Podés ver estos datos accediendo a los slides de abajo</p>
+						<h2>Los costos logísticos de la región</h2>
+						<p>La relación del Belgrano Cargas y la competitividad logística en el NOA</p>
 					</section>
 					<section>
-						<img src="img/fig-01.png">
+						<p><strong>Figura 1: </strong>Costos logísticos como % del valor FOB de los bienes exportados, por región.</p>
+						<canvas id="chart01"></canvas>
+						<p style="font-size: 0.6em;"><strong>Fuente</strong> "Argentina: El desafío de Reducir los Costos Logísticos Ante el Crecimiento del Comercio Exterior", Banco Mundial, 2006.</p>
+						<!--<img src="img/fig-01.png">-->
 					</section>
 					<section>
-						<li>El análisis de la situación actual del ferrocarril Belgrano Cargas esta estrechamente ligado a la competitividad del NOA.</li>
+						<li>El análisis de la situación actual del ferrocarril Belgrano Cargas está estrechamente ligado a la competitividad del NOA.</li>
 						<li>A partir de los 90, los frecuentes  cambios  en  su  estructura  y  las  deficiencias operativas  determinaron  una  fuerte  caída  en  sus volúmenes de carga que se han mantenido en niveles muy bajos aún en el 2010 y con escasas perspectivas de mejora.</li>
 					</section>
 					<!--<section>
@@ -123,7 +166,7 @@
 						<img src="img/fig-02.png">
 					</section>
 				</section>
-				<section>
+				<section data-background="img/noa-04.jpg">
 					<section>
 						<h1>Oferta actual del corredor logístico</h1>
 					</section>
@@ -184,18 +227,149 @@
 							<li>No existen en el NOA áreas donde se fomente la instalación de depósitos, centros de distribución y bases de transportes. </li>
 							<li>Problemas de inseguridad vial entre las rutas 34 y 9.</li>
 					</section>
-					<section>
+					<section data-background="img/ruta34-01.jpg">
 						<p>En especial en la <strong>Ruta Nacional 34</strong></p>
+					</section>
+					<section>
+						<img src="img/tabla15.png">
+						<p style="font-size: 1em">Siendo la utilización del ferrocarril sumamente baja siendo usado por menos del 10% de las empresas.</p>
+					</section>
+					<section>
+						<h2>Y otro dato más...</h2>
+						<p>Una de las restricciones al desarrollo del NOA y su competencia, se debe a la baja participación del ferrocarril como medio de transporte de cargas. </p>
+					</section>
+				</section>
+				<section data-background="img/belgranocargas-01.jpg">
+					<section>
+						<h1>El Belgrano Cargas</h1>
+						<p>Clave para la competitividad en el NOA y para el desarrollo de la región. </p>
+					</section>
+					<section>
+						<h2>Algunos datos relevantes</h2>
+						<p>Durante los últimos 20 años la carga transportada tuvo una marcada tendencia declinante. </p>
+						<p>Hacia fines de la década del 80 trasladaba alrededor de 4 millones de toneladas, representando la cuarta parte del total de carga ferroviaria en el país. </p>
+					</section>
+					<section>
+						<img src="img/evolucion-trafico.png">
+						<p>En la actividad los volúmenes de carga se redujeron a 0,9 millones de toneladas. </p>
+					</section>
+					<section>
+						<h2>Problemas actuales</h2>
+						<p>Tras el repaso de los últimos 20 años de gestión del ferrocarril Belgrano Cargas, cabe realizar las siguientes reflexiones: </p>
+						<ul>
+							<li>Inestabilidad permanente en la gestión de la red. </li>
+							<li>Gestionan una compleja red de 7000 kilómetros, con decenas de estaciones, miles de vagones y varios talleres, todo ello en estado crítico y con muy importantes necesidades de inversión.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Problemas actuales</h2>
+						<ul>
+							<li>Complejidad para instrumentar los cambios. </li>
+							<li><u>Falta de claridad respecto al modelo de gestión:</u> A los cambios permanentes y complejos deben sumarse:
+								<ul>
+									<li>Intentos fallidos de concesión al sector privado en los mismos términos que las otras redes de carga en 1992</li>
+									<li>Venta del paquete accionario mayoritario al sector privado en 2005</li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<img src="img/tabla18.png">
+					</section>
+					<section>
+						<img src="img/tabla19.png">
+					</section>
+					<section>
+						<h2>Sobre las dos tablas...</h2>
+						<p><strong>Producción en toneladas-kilómetro:</strong> Cabe resaltar respecto a este ítem que el FC Belgrano Cargas se ubica entre los de menor volumen de tráfico. Su volumen es similar al de América Logística Mesopotámica de Argentina y a del Ferrocarril Oriental de Bolivia. </p>
+					</section>
+					<section>
+						<h2>Sobre las dos tablas...</h2>
+						<p><strong>Distancia Media:</strong> El Belgrano Cargas es el que mayor distancia media de transporte registra, aunque la distancia media ha ido decreciendo durante los últimos años como consecuencia del incremento de los tráficos desde el norte (salta, Chaco) hacia puerto San Martín y de la disminución de las cargas destinadas a la zona Metropolitana de Buenos Aires. </p>
+					</section>
+					<section>
+						<h2>Sobre las dos tablas...</h2>
+						<p><strong>Productividad de locomotoras:</strong> Escasa cantidad de locomotoras en servicio (36). </p>
+						<p><strong>Productividad de vagones (ton-km por vagón en servicio):</strong> el FC Belgrano es el segundo peor después de AFE, y con un nivel similar al que presenta Ferrovía Central Andina de Perú. </p>
+						<p><strong>Material tractivo y remolcado:</strong> Ambos presentan una disponibilidad baja y deterioros importantes.</p>
+					</section>
+					<section>
+						<h2>Situación operacional</h2>
+						<p>El Belgrano Cargas mantiene actualmente sólo dos trayectos operables, aunque ambos se encuentran en estado deficiente.</p>
+						<ul>
+							<li>El primero de estos trayectos es el llamado ramal “azucarero”, que une Salta, Tucumán, Santiago del Estero, Córdoba, Rosario y Retiro. </li>
+							<li>El segundo es el llamado ramal “cerealero”, que parte desde Salta, cruza la provincia de Chaco, el norte de Santa Fe y llega a Rosario, y este último ramal concentra el 65% de sus cargas. </li>
+						</ul>
+					</section>
+					<section>
+						<img src="img/tabla21.png">
+						<p>En los últimos años el tipo de carga ha mostrado una clara tendencia hacia una mayor concentración.</p>
+					</section>
+					<section>
+						<h2>Rentabilidad competitiva</h2>
+						<p>Las tarifas que cobra el ferrocarril Belgrano para el transporte de granos son inferiores a los que efectivamente cobran los camiones. </p>
+						<p>El crecimiento del ferrocarril Belgrano Cargas podrá desarrollarse en 2 sentidos: </p>
+						<ul>
+							<li>El incremento de los productos transportados.</li>
+							<li>La expansión territorial. </li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Problemas actuales: Motivos y razones</h1>
+						<p>Porqué los productores y empresarios eligen un modo u otro para transportar su mercadería.</p>
+						<p>Los siguientes gráficos fueron elaborados por el Banco Mundial.</p>
+					</section>
+					<section>
+						<p>¿Qué obstáculos percibe respecto de los temas de logísticas en el NOA?</p>
+						<canvas id="fig18"></canvas>
+					</section>
+					<section>
+						<p>¿Qué obstáculos percibe respecto al transporte carretero en el NOA?</p>
+						<canvas id="fig19"></canvas>
+					</section>
+					<section>
+						<p>¿Qué obstáculos percibe respecto al transporte ferroviario?</p>
+						<canvas id="fig20"></canvas>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Estrategias para reactivarlo</h1>
+						<p>Diferentes acciones para tener en cuenta para aprovechar un potencial de transporte importante en la región. </p>
+					</section>
+					<section>
+						<h2>Estrategia 1</h2>
+						<p>Crecimiento  dentro  del  esquema  actual:   los   mismos   ramales   atendidos   y   productos transportados  que  en  la  actualidad.  Bajo  esta  estrategia  se  trataría  de  expandir  exclusivamente  los tráficos (productos y zonas).  Comparando  con  la  producción  respectiva,  esto sería claramente viable para las cargas de granos, y con  menor  posibilidad  de  expansión  relativa  para las cargas de azúcar y porotos. El tráfico de cemento y clinker no admitiría crecimiento si sólo se transporta  desde  el  origen  actual  (salvo  que  se  adecúen  los servicios para el transporte a granel).</p>
+					</section>
+					<section>
+						<h2>Estrategia 2</h2>
+						<p>Incluye  el  crecimiento  de  tráficos  actuales  especificados  en  la  Estrategia  1  e  incorpora nuevos productos dentro de los mismos ramales actualmente  en  operación;  tentativamente:  contenedores  provenientes  de  Salta  y  Jujuy  (con  productos como vinos, cítricos, conservas y papel, entre otros) y piedra para la construcción de canteras proveniente de Córdoba.</p>
+					</section>
+					<section>
+						<h2>Estrategia 3</h2>
+						<p>Incluye  el  crecimiento  de  tráficos  actuales  de  la  Estrategia  1  y  amplía  la  cobertura  para esos mismos productos mediante la puesta en operaciones  de  otros  tramos  de  la  red  actualmente  en desuso. Básicamente se trataría de ampliar el área de cobertura  de  captación  de  los  productos  que  son  transportados  en  la  actualidad, especialmente granos y subproductos.</p>
+					</section>
+					<section>
+						<h2>Estrategia 4</h2>
+						<p>En  esta  estrategia  se  trataría  de  llevar adelante las Estrategias 1, 2 y 3, a lo que se sumaría la atención de tráficos de productos no transportados actualmente en ramales en desuso, como por ejemplo  la  producción  minera  de  Salta  y  Jujuy,  el  tráfico internacional con Bolivia, etc.</p>
+					</section>
+					<section>
+						<img src="img/tabla26.png">
+					</section>
+					<section>
+						<img src="img/tabla27.png">
 					</section>
 				</section>
 				<section>
 					<h1>Antes de finalizar...</h1>
 					<h2>Fuentes de información</h2>
+					<a href="http://siteresources.worldbank.org/INTARGENTINAINSPANISH/Resources/LogisticaArgentinaII.pdf" style="color: #FFF"><p>Logística, Análisis y opciones para resolver sus desafíos estratégicos. Banco Mundial. ARG. Informe No. 54342– AR - Octubre de 2010</p></a>
 					<p>Ferrocámara - Av. San Juan 470 2D</p>
-					<p>Informe del Banco Mundial</p>
 				</section>
 				<section>
-					<section data-background-video="vid/el_mejor_final_de_transporte_2_SD.mp4" data-background-color="#000000">
+					<section data-background-video="vid/El_mejor_final_de_transporte_2_SD.mp4" data-background-color="#000000">
 					</section>
 					<section>
 						<h1>¡Muchas gracias!</h1>
@@ -208,8 +382,11 @@
 			</div>
 		</div>
 
+		<script src="js/Chart.min.js"></script>
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
+
+		<script src="js/scripts.js"></script>
 
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration

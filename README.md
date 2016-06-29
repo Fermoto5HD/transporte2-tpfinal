@@ -8,5 +8,4 @@ Además, esto soporta responsive, es decir, podés ver la presentación desde cu
 
 Para ver la presentación [ingresá acá](http://Fermoto5HD.github.io/transporte2-tpfinal). 
 
-## Esto fue armado con 
-* Reveal.js 
+El material audiovisual de este trabajo fueron utilizadas para motivos informativos y estudiantiles, y la autoría de las mismas corresponden a sus respectivos autores. 
