@@ -7,5 +7,6 @@ Esto fue armado con Reveal.js, un framework que permite armar presentaciones con
 Además, esto soporta responsive, es decir, podés ver la presentación desde cualquier dispositivo. 
 
 Para ver la presentación [ingresá acá](http://Fermoto5HD.github.io/transporte2-tpfinal). 
+Podés bajarlo directamente desde "releases", luego extraerlo, y para verlo sólo tenés que abrir el archivo `index.html` con un navegador. 
 
-El material audiovisual de este trabajo fueron utilizadas para motivos informativos y estudiantiles, y la autoría de las mismas corresponden a sus respectivos autores. 
+El material audiovisual incluído en este trabajo fue utilizado para motivos informativos y estudiantiles, y la autoría de dicho material corresponden a sus respectivos autores. 
